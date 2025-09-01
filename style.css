@@ -121,8 +121,6 @@ form {
   padding-bottom: 2rem;
 }
 
-
-
 .form-group{
 
   display: flex;
@@ -165,3 +163,28 @@ input:focus{
   border: 1px solid red;
 }
 
+button {
+  font-family: "Inter", sans-serif;
+  padding: 0.8rem 2.7rem;
+  font-size: 1rem;
+  font-weight: 550;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  margin-top: 2rem;
+  margin-left: 3rem;
+
+  background-color: #596D48;
+}
+
+.lastLine{
+  font-family: "Inter" , sans-serif;
+  font-weight: 450;
+  color: rgb(20, 20, 20);
+  padding-left: 3rem;
+}
+
+.login{
+  color: #596D48;
+  font-weight: 650;
+}
