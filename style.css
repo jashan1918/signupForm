@@ -1,13 +1,12 @@
 @font-face {
-    font-family: 'Norse';
-    src: url('/fonts/transfonter.org-20250831-144152/Norse-Bold.woff2') format('woff2'),
-        url('/fonts/transfonter.org-20250831-144152/Norse-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Norse";
+  src: url("/fonts/transfonter.org-20250831-144152/Norse-Bold.woff2")
+      format("woff2"),
+    url("/fonts/transfonter.org-20250831-144152/Norse-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
-
-
 
 body {
   display: flex;
@@ -28,36 +27,32 @@ body {
 .left {
   flex: 11;
 
-
   background-image: url("/halie-west-25xggax4bSA-unsplash.jpg");
   background-size: cover;
 
   position: relative;
-  
 }
 
 .banner {
-
   height: 13%;
-    background-color: rgba(0, 0, 0, 0.45); /* black with 50% transparency */
-  margin-top: 10rem;
-
+  background-color: rgba(0, 0, 0, 0.45); /* black with 50% transparency */
+  margin-top: 13rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.banner img{
+.banner img {
   height: 90%;
 }
-.banner p{
+.banner p {
   color: white;
   font-size: 5rem;
   font-family: "Norse", sans-serif;
 }
 
-.credit{
+.credit {
   color: white;
   font-weight: 100;
 
@@ -68,14 +63,105 @@ body {
   bottom: 1rem;
   left: 10rem;
 }
-.credit a{
+.credit a {
   color: white;
   font-weight: 100;
   font-size: 0.9rem;
-
 }
 
 .right {
   flex: 18;
-  background-color: lightcoral;
+  background-color: #f9fafb;
 }
+
+.top-passage {
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+
+  margin-top: 10rem;
+  margin-left: 3rem;
+  width: 48ch;
+
+  font-weight: 550;
+}
+
+.signUp {
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+
+  margin-left: 3rem;
+  margin-top: -1rem;
+  font-weight: 550;
+}
+.know {
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+
+  margin-left: 3rem;
+
+  font-weight: 550;
+}
+
+
+.hero{
+  background-color: white;
+   box-shadow: -1px 3px 10px rgb(192, 190, 190);
+}
+
+.hero p{
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+
+  margin-left: 3rem;
+  padding-top: 1rem;
+
+  font-weight: 550;
+}
+form {
+  padding-bottom: 2rem;
+}
+
+
+
+.form-group{
+
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 3rem;
+}
+
+.form-group label {
+
+  font-family: "Inter", sans-serif;
+  font-size: 0.7rem;
+  margin-bottom: 0.3rem;
+  font-weight: 550;
+  letter-spacing: 0.1rem;
+  color: rgb(56, 56, 56);
+}
+
+.form-group input {
+  font-size: 1rem;
+  padding: 0.3rem;
+
+  border: 1px solid #E5E7EB;
+  border-radius: 2px;
+  width: 14rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+input:focus{
+  border: 1px solid blue;
+  border-radius: 4px;
+  box-shadow: 1px 3px 5px rgb(182, 180, 180);
+  outline: none;
+}
+
+#password:invalid ,#confirmPassword:invalid {
+  border: 1px solid red;
+}
+

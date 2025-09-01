@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign UP form</title>
 
-     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <div class="left">
-        
-
         <div class="banner">
           <img src="/odin-lined.png" alt="site logo" />
           <p>MOON</p>
@@ -37,9 +38,58 @@
         </p>
       </div>
       <div class="right">
+        <p class="top-passage">
+          This is not a real online service! You know you need something like
+          this in your life to realize your deepest dreams.
+        </p>
+        <p class="signUp">Sign up <em>now</em> to get started.</p>
 
-        <p class="top-passage">This is not a real online service! You know you need something like this in your life to realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+        <p class="know">You <em>know</em> you want to.</p>
 
+        <div class="hero">
+          <P>Let's do this!</P>
+
+  <form action="" method="post">
+
+    <div class="form-row">
+          <div class="form-group">
+      <label for="firstName">FIRST NAME</label>
+      <input type="text" name="firstName" id="firstName">
+    </div>
+
+    <div class="form-group">
+      <label for="lastName">LAST NAME</label>
+      <input type="text" name="lastName" id="lastName">
+    </div>
+    </div>
+
+<div class="form-row">
+     <div class="form-group">
+      <label for="email">EMAIL</label>
+      <input type="email" id="email" name="email">
+    </div>
+
+    <div class="form-group">
+      <label for="phoneNumber" >PHONE NUMBER</label>
+      <input type="tel" name="phoneNUmber" id="phoneNumber">
+    </div>
+</div>
+ 
+<div class="form-row">
+
+        <div class="form-group">
+      <label for="password" >PASSWORD</label>
+      <input type="password" name="password" id="password" minlength="8">
+    </div>
+
+      <div class="form-group">
+      <label for="confirmPassword" >CONFIRM PASSWORD</label>
+      <input type="password" name="confirmPassword" id="confirmPassword" minlength="8">
+    </div>
+</div>
+
+  </form>
+        </div>
       </div>
     </div>
   </body>
